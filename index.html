@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <style>
+    @font-face {
+        font-family: comic;
+        src: url('comic.ttf');
+    }
+    *{font-family: comic;}
     body{
         background-color: rgb(144, 155, 165);
     }
@@ -10,6 +15,7 @@
         background-color: rgb(255, 255, 255);
         width: 33%;
     }   
+    
     table{
         width: 100%;
         border: 2px groove;
@@ -18,8 +24,14 @@
         background-color: rgb(196, 196, 196);
         border-radius: 3px;
     }
-    tr:first-child {background-color:lightblue;}
+    h2{        
 
+        color:coral;
+        text-shadow: 1px 1px 1px black;
+        flex-wrap: nowrap;
+        word-wrap: break-word;
+        }
+    hr{float: none;}
 
 </style>
 <html lang="en">
@@ -29,11 +41,33 @@
 <body>
    <img style="display: block;margin: auto;" src="dookieman.png" alt="dookie-man's xp tools">
     
-    <p style="text-align: center;">Welcome to dookie-man's xp tools! here you'll find plenty of software that works on windows xp. also screw good html nobody needs it &#9787</p>
-    
-    
-
+    <p style="text-align: center;">Welcome to dookie-man's xp tools! here you'll find plenty of software that has been tested with my windows xp machine (more about my machine below). retro web design!! &#9787</p>
     <hr>
+    <div style="margin-left: 10%;margin-right: 10%;border: 2px groove;padding: 4px;border-color:rgb(107, 107, 107);background-color: rgb(196, 196, 196);border-radius: 3px;">
+    <div style="overflow-y:auto; height:535px ;  padding-top: 15px; border: 2px groove;padding-left: 20px;padding-right: 20px;border-color:rgb(192, 192, 192);background-color: rgb(255, 255, 255);">
+   <img src="bluepc.bmp" alt="the blue pc" style="margin:3px;float:right; border: 2px groove;padding: 5px;border-color:rgb(192, 192, 192);background-color: rgb(255, 255, 255);" height="512" width="auto">
+  <h2 style="flex-wrap:nowrap;">My Windows XP machine</h2>  
+    <p>This is The Blue PC(such a creative name right?) I use this for playing games of the era. </p>
+
+
+    <br>
+    <p>Specs</p>
+    <ul>
+        <li>CPU: 2ghz AMD Sempron 3000+ </li>
+        <li>RAM: 1280MB 166.6mhz DDR-SDRAM  </li>
+        <li>GPU: nVidia GeForce FX 5200 256mb DDR </li>
+
+    </ul>
+    
+    </div>
+</div>
+
+    <hr style="float: none;">
+    <div style="margin: auto; margin-bottom:10px;width: 150px;display: block ; border: 2px groove;padding: 4px;border-color:rgb(107, 107, 107);background-color: rgb(196, 196, 196);border-radius: 3px;">
+        <div style=" border: 2px groove;border-color:rgb(192, 192, 192);background-color: rgb(255, 255, 255);line-height: 3px;">
+       
+    <h2 style="text-align: center;">Software</h2>
+    </div></div>
     <table>
         <tr>
             <td style="background-color: lightsteelblue;"><b>Software</b></td>
@@ -63,7 +97,11 @@
 
     </table>
     <hr>
-    <p style="text-align: center;">More coming soon! In the meantime go check out these websites</p>
+    <div style="margin: auto; margin-bottom:10px; width: 150px;display: block ; border: 2px groove;padding: 4px;border-color:rgb(107, 107, 107);background-color: rgb(196, 196, 196);border-radius: 3px;">
+        <div style=" border: 2px groove;border-color:rgb(192, 192, 192);background-color: rgb(255, 255, 255);line-height: 3px;">
+       
+    <h2 style="text-align: center;">Extra</h2>
+    </div></div>
     <table style="width: auto;margin: auto;">
         <tr>
             <td style="background-color: lightsteelblue;"><b>Name</b></td>
@@ -71,27 +109,27 @@
             <td style="background-color: lightsteelblue;"><b>Link</b></td>
         </tr>
     <tr>
-    <td><p>Skipster1337's Website</p></td>
-    <td><p>Better website with more resources and some other stuff.</p></td>
+    <td>Skipster1337's Website</td>
+    <td>Better website with more resources and some other stuff.</td>
     <td style="text-align: center;width: auto;"><a target="_blank" href="https://skipster1337.github.io/posts/windows-software.html">skipster1337.github.io</a></td>
     </tr> 
     <tr>
-        <td><p>InternetRadio</p></td>
-        <td><p>Its radio on the world wide web!</p></td>
+        <td>InternetRadio</td>
+        <td>Its radio on the world wide web!</td>
         <td style="text-align: center;width: auto;"><a target="_blank" href="https://www.internet-radio.com/">https://www.internet-radio.com/</a></td>
         </tr> 
     <tr>
-        <td><p>Watching Grass Grow</p>
-        </td>            <td><p>watch grass grow</p></td>
+        <td>Watching Grass Grow</td>
+        <td>watch grass grow</td>
         <td style="text-align: center;width: auto;"><a target="_blank" href="https://www.watching-grass-grow.com/">https://www.watching-grass-grow.com/</a></td>
     </tr> 
     <tr>
-        <td><p>The old net</p>
-        </td>            <td><p>the best internet tool for old computers frfr no cap</p></td>
+        <td>The old net</td>            
+        <td>internet tool for old computers</td>
         <td style="text-align: center;width: auto;"><a target="_blank" href="http://theoldnet.com/">http://theoldnet.com/</a></td>
     </tr> 
     </table>
     <hr>
-    <p style="text-align: center;">Contact me at grilledchildren@hotmail.com</p>
+    <p style="text-align: center;">Contact me at thebluepc@hotmail.com</p>
 </body>
 </html>
