@@ -1,0 +1,32 @@
+@font-face {
+    font-family: comic;
+    src: url('comic.ttf');
+}
+*{font-family: comic;}
+body{
+    background-color: rgb(144, 155, 165);
+}
+th,td{
+    border: 2px groove;
+    padding: 5px;
+    border-color:rgb(192, 192, 192);
+    background-color: rgb(255, 255, 255);
+    width: 33%;
+}   
+
+table{
+    margin: auto;
+    border: 2px groove;
+    padding: 2px;
+    border-color:rgb(107, 107, 107);
+    background-color: rgb(196, 196, 196);
+    border-radius: 3px;
+}
+h2{        
+
+    color:coral;
+    text-shadow: 1px 1px 1px black;
+    flex-wrap: nowrap;
+    word-wrap:normal;
+    }
+hr{float: none;}
